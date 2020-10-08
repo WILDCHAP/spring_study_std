@@ -60,4 +60,16 @@ public class Student {
     public void setCards(Map<String, String> cards) {
         this.cards = cards;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", addr=" + addr +
+                ", age=" + age +
+                ", games=" + games +
+                ", hobbys=" + hobbys +
+                ", cards=" + cards +
+                '}';
+    }
 }
