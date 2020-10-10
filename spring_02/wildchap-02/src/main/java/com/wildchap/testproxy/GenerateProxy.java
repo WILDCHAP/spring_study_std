@@ -13,7 +13,7 @@ public class GenerateProxy implements InvocationHandler {
         this.animal = animal;
     }
 
-    // 利用Proxy的newProxyInstance方法，获取被代理对象方法
+    // 利用Proxy的newProxyInstance方法，获取被代理对象方法(返回的是被代理类共同实现的接口)
     public Object getProxy(){
         return Proxy.newProxyInstance(this.getClass().getClassLoader(), animal.getClass().getInterfaces(), this);
     }
