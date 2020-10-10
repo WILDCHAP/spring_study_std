@@ -18,11 +18,18 @@ public class GenerateProxy implements InvocationHandler {
         return Proxy.newProxyInstance(this.getClass().getClassLoader(), animal.getClass().getInterfaces(), this);
     }
 
-    // 完善反射机制，指定执行内容
+    // 完善反射机制，指定执行内容(这里的方法是被代理对象的方法)
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-
+        printmsg(method.getClass().getName());
         //调用被代理类都实现了的接口方法
         Object result = method.invoke(animal, args);
         return result;
     }
+
+    //这里还可以写自己的方法
+    public void printmsg(String msg){
+        System.out.println("你选择了" + msg);
+    }
 }
+
+
