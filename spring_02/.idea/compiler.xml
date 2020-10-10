@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wildchap-03-aop" />
         <module name="wildchap-04-aop" />
+        <module name="wildchap-05-aop" />
         <module name="wildchap-01" />
         <module name="wildchap-02" />
       </profile>

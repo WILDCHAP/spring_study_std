@@ -14,7 +14,7 @@
     <aop:config>
         <aop:aspect ref="diy">
             <!--切片位置-->
-            <aop:pointcut id="point1" expression="execution(* com.wildchap.userservlet.*(..))"/>
+            <aop:pointcut id="point1" expression="execution(* com.wildchap.userservlet.UserServletImpl.*(..))"/>
             <!--加入执行-->
             <aop:before method="before" pointcut-ref="point1"/>
             <aop:after method="after" pointcut-ref="point1"/>

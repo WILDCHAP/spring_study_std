@@ -8,17 +8,8 @@
         https://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <bean id="userServlet" class="com.wildchap.userservlet.UserServletImpl"/>
-<!--    diy自定义方法-->
-    <bean id="diy" class="com.wildchap.log.DiyLog"/>
-
-    <aop:config>
-        <aop:aspect ref="diy">
-            <!--切片位置-->
-            <aop:pointcut id="point1" expression="execution(* com.wildchap.userservlet.UserServletImpl.*(..))"/>
-            <!--加入执行-->
-            <aop:before method="before" pointcut-ref="point1"/>
-            <aop:after method="after" pointcut-ref="point1"/>
-        </aop:aspect>
-    </aop:config>
+    <bean id="log" class="com.wildchap.log.DiyLog"/>
+    <!--开启注解支持-->
+    <aop:aspectj-autoproxy/>
 
 </beans>

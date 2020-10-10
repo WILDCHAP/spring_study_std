@@ -13,6 +13,7 @@
         <module>wildchap-02</module>
         <module>wildchap-03-aop</module>
         <module>wildchap-04-aop</module>
+        <module>wildchap-05-aop</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
