@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ioc" />
+        <module name="spring-aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="spring-ioc" target="1.8" />
+      <module name="spring-aop" target="1.5" />
+      <module name="spring-ioc" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
