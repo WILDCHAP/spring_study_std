@@ -14,7 +14,7 @@ public class MyTest {
 
         UserMapper userMapper = context.getBean("userMapper", UserMapper.class);
 
-        userMapper.searchUser()
+        List<User> users = userMapper.searchUser();
     }
 
 }

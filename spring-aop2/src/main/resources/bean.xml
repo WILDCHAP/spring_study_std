@@ -19,6 +19,6 @@
             <aop:after method="after" pointcut-ref="point1"/>
         </aop:aspect>
     </aop:config>
-    
+
 
 </beans>
