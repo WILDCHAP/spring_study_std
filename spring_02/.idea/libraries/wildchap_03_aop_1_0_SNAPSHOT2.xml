@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wildchap-03-aop-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wildchap-03-aop/target/wildchap-03-aop-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

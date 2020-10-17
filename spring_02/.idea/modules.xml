@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wildchap-01/src/main/main.iml" filepath="$PROJECT_DIR$/wildchap-01/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-03-aop/src/main/main1.iml" filepath="$PROJECT_DIR$/wildchap-03-aop/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-05-aop/src/main/main2.iml" filepath="$PROJECT_DIR$/wildchap-05-aop/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-04-aop/src/main/main3.iml" filepath="$PROJECT_DIR$/wildchap-04-aop/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-04-aop/src/test/test.iml" filepath="$PROJECT_DIR$/wildchap-04-aop/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-05-aop/src/test/test1.iml" filepath="$PROJECT_DIR$/wildchap-05-aop/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-03-aop/src/test/test2.iml" filepath="$PROJECT_DIR$/wildchap-03-aop/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-01/src/test/test3.iml" filepath="$PROJECT_DIR$/wildchap-01/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildchap-02/wildchap-02.iml" filepath="$PROJECT_DIR$/wildchap-02/wildchap-02.iml" />
+    </modules>
+  </component>
+</project>
