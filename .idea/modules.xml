@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-aop2/spring-aop2.iml" filepath="$PROJECT_DIR$/spring-aop2/spring-aop2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-aop3/spring-aop3.iml" filepath="$PROJECT_DIR$/spring-aop3/spring-aop3.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-ioc/spring-ioc.iml" filepath="$PROJECT_DIR$/spring-ioc/spring-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis-way1/spring-mybatis-way1.iml" filepath="$PROJECT_DIR$/spring-mybatis-way1/spring-mybatis-way1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring_study_std.iml" filepath="$PROJECT_DIR$/.idea/spring_study_std.iml" />
     </modules>
   </component>
