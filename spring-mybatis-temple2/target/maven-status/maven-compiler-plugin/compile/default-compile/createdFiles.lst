@@ -1,0 +1,3 @@
+com\wildchap\dao\UserMapper.class
+com\wildchap\pojo\User.class
+com\wildchap\servlet\UserServlet.class

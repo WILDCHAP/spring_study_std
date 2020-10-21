@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-mybatis-way1" />
+        <module name="spring-mybatis-temple2" />
         <module name="spring-mybatis-temple1" />
         <module name="spring-ioc" />
         <module name="spring-aop3" />
@@ -23,6 +24,7 @@
       <module name="spring-ioc" target="1.5" />
       <module name="spring-mybatis" target="1.5" />
       <module name="spring-mybatis-temple1" target="1.5" />
+      <module name="spring-mybatis-temple2" target="1.5" />
       <module name="spring-mybatis-way1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
